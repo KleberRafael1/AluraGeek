@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>AluraGeeK</title>
+</head>
+<body>
+    <header class="cabecalho__flex">
+        <img class="cabecalho__logo__img" src="assets/coracoes.png" alt="3 corações">
+        <div class="cabecalho__logo__titulo">AluraGeek</div>
+    </header>
+
+    <main class="conteudo">
+        <section class="bloco__principal__flex__conteudo">
+            <h1 class="bloco__principal__titulo">MEUS PRODUTOS:</h1>
+            <ul class="bloco__principal__itens" id="meus__produtos" data-lista>                
+            </ul>
+        </section>
+
+        <section class="bloco__adicional__flex">
+            <h1 class="bloco__adicional__flex__titulo">ADICIONAR PRODUTO:</h1>
+            <form class="conteiner__formulario" id="formulario" data-formulario>
+                <input class="campo__escrita" id="campo__nome" name="nome" type="text" placeholder="nome..." minlength="3" maxlength="20" data-nome>
+                <div id="sugestoes-produtos"></div>
+                <span class="mensagem-erro"></span>
+                <input class="campo__escrita" id="campo__valor" name="valor" type="text" placeholder="valor..." minlength="3" maxlength="13" required data-valor>
+                <span class="mensagem-erro"></span>
+                <input class="campo__escrita" id="campo__imagem" name="imagem" type="text" placeholder="imagem..." minlength="5" maxlength="100" required data-imagem>
+                <span class="mensagem-erro"></span>
+                <div class="botões">
+                    <input type="submit" id="save-button" value="Salvar" class="salvar" data-botao-salvar>
+                    <button class="btn__limpar" id="limpar" data-botao-limpar>Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape__flex">
+        <div class="rodape__logo">
+            <img class="rodape__logo__img" src="assets/coracoes.png" alt="3 corações">
+            <div class="rodape__logo__titulo">AluraGeeK</div>
+        </div>
+        <div class="rodape__texto">
+            <p>One - Oracle Next Education 2024</p>
+            <p>Projeto da Alura por Kleber Rafael</p>
+        </div>  
+    </footer>
+
+    <script src="./app/conectaApi.js" type="module"></script>
+    <script src="./app/criaProduto.js" type="module"></script>
+    <script src="./app/mostrarProdutos.js" type="module"></script>    
+</body>
+</html>

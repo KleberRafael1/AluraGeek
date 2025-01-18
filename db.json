@@ -1,0 +1,36 @@
+{
+  "Produtos": [
+    {
+      "id": "0",
+      "nome": "Gameboy",
+      "valor": "400,00",
+      "imagem": "./assets/gameboy.png",
+      "status": true,
+      "categoria": "game"
+    },
+    {
+      "id": "1",
+      "nome": "Nintendo Switch",
+      "valor": "2000,00",
+      "imagem": "./assets/nintendo.png",
+      "status": true,
+      "categoria": "game"
+    },
+    {
+      "id": "3",
+      "nome": "Console PS5",
+      "valor": "4000,00",
+      "imagem": "./assets/ps5.png",
+      "status": true,
+      "categoria": "game"
+    },
+    {
+      "id": "4",
+      "nome": "Microsoft Xbox One",
+      "valor": "3000,00",
+      "imagem": "./assets/xbox.png",
+      "status": true,
+      "categoria": "game"
+    }
+  ]
+}
