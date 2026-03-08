@@ -1,62 +1,73 @@
-# Desafio Alura Geek 🚀
+# 🛍️ Alura Geek
 
-Este projeto foi criado durante os estudos de **JavaScript**, **CSS**, **HTML**, **Node.js** e **JSON** no programa **Oracle Next Education**, em parceria com a **Alura**.
+Projeto desenvolvido durante os estudos no programa **Oracle Next Education (ONE)** em parceria com a Alura.
 
-O objetivo foi desenvolver uma página que permita aos usuários:
+O objetivo foi criar uma aplicação web capaz de **cadastrar, exibir e remover produtos**, utilizando JavaScript para manipulação do DOM e integração com uma **API mockada**.
 
-- **Cadastrar produtos** com nome, imagem e preço.
-- **Adicionar imagens** localmente ou a partir do **Google Images** (basta copiar a URL da imagem e inseri-la no formulário).
-- **Manipular o DOM** para exibir os produtos cadastrados.
-- **Realizar requisições** para interagir com uma API mockada, simulando a criação e atualização de produtos.
+## 💻 Sobre o projeto
 
----
+O **Alura Geek** simula uma pequena loja onde é possível cadastrar produtos com:
 
-## Funcionalidades ✨
+- nome
+- preço
+- imagem
 
-- **Cadastro de Produtos**: Os usuários podem cadastrar produtos, definindo o nome, o preço e a imagem.
-- **Exclusão de Produtos**: É possível excluir produtos diretamente da interface.
-- **Imagens Personalizadas**: O usuário pode usar imagens do seu próprio diretório ou buscar diretamente no Google Images.
+Os dados são armazenados e manipulados através de uma **API simulada utilizando json-server**.
 
----
+## ✨ Funcionalidades
 
-## Tecnologias Usadas 💻
+- Cadastro de produtos
+- Exibição dinâmica dos produtos na interface
+- Exclusão de produtos
+- Inserção de imagens por URL ou arquivo local
+- Integração com API mockada
 
-- **JavaScript**: Lógica do lado do cliente, manipulação do DOM e requisições assíncronas.
-- **HTML**: Estrutura da página, formulários e organização dos dados.
-- **CSS**: Estilização da interface, design responsivo e interação do usuário.
-- **Node.js**: Criação do servidor para rodar a API mockada.
-- **JSON**: Estruturação dos dados e armazenamento local dos produtos.
+## 🛠️ Tecnologias utilizadas
 
----
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- JSON Server
+- JSON
 
-## Como Usar 📦
+## ⚙️ Como executar o projeto
 
-1. **Instale as dependências**:
-    ```bash
-    npm install
-    ```
+### 1️⃣ Instalar dependências
 
-2. **Inicie o servidor**:
-    ```bash
-    npx json-server --watch db.json
-    ```
 
-3. Acesse o projeto em [http://localhost:3000/](http://localhost:3000/).
+npm install
 
----
 
-## Como Funciona 🔧
+### 2️⃣ Iniciar a API mockada
 
-1. **Adicionar Produto**: Preencha o formulário com o nome, preço e imagem do produto.
-2. **Exclusão de Produto**: Clique no ícone de lixeira ao lado do produto para removê-lo.
-3. **API Mockada**: A lista de produtos é carregada e atualizada via uma API simulado com **json-server**.
 
----
+npx json-server --watch db.json
 
-## Screenshots 📸
 
-Aqui você pode incluir imagens de exemplo da aplicação funcionando, como o formulário de cadastro e a listagem de produtos com o ícone de lixeira.
+### 3️⃣ Abrir o projeto
 
----
+Acesse:
 
-**Feito com 💙 por [Kleber Rafael]**
+
+http://localhost:3000/
+
+
+## 🧠 Aprendizados
+
+Durante o desenvolvimento foram praticados conceitos como:
+
+- Manipulação do DOM
+- Requisições assíncronas
+- Consumo de API
+- CRUD de dados
+- Organização de projetos front-end
+- Simulação de backend com **json-server**
+
+## 📅 Data
+
+Janeiro de 2025
+
+## 👨‍💻 Autor
+
+Kleber Rafael
